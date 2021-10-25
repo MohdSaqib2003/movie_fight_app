@@ -31,7 +31,7 @@ let second_output_div = document.getElementById('second_output');
 
 function getData(input, movie_dropdown) {
 
-    axios.get('http://www.omdbapi.com/', {
+    axios.get('https://www.omdbapi.com/', {
         params: {
             apikey: '430c370a',
             s: input.value
@@ -51,7 +51,7 @@ function getData(input, movie_dropdown) {
                     // if(e.key==="Enter"){
                     // }
 
-                    axios.get('http://www.omdbapi.com/', {
+                    axios.get('https://www.omdbapi.com/', {
                         params: {
                             apikey: '430c370a',
                             t: input.value
@@ -104,7 +104,7 @@ function getData(input, movie_dropdown) {
                     // if(e.key==="Enter"){
                     
 
-                    axios.get('http://www.omdbapi.com/', {
+                    axios.get('https://www.omdbapi.com/', {
                         params: {
                             apikey: '430c370a',
                             t: input.value
